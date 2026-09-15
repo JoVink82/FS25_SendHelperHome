@@ -1,0 +1,6 @@
+# FS25 packaged mod zip (built from this source, not tracked)
+*.zip
+
+# OS junk
+.DS_Store
+Thumbs.db

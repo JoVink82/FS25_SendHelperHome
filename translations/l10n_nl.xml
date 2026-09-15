@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+    <texts>
+        <text name="input_SHH_SET_HOME" text="Stuur Helper Naar Huis: thuis-punt hier instellen"/>
+        <text name="input_SHH_CLEAR_HOME" text="Stuur Helper Naar Huis: thuis-punt wissen"/>
+
+        <text name="shh_console_setHome_desc" text="Stel het 'thuis'-punt in voor jouw boerderij op de huidige positie (voertuig of speler)"/>
+        <text name="shh_console_clearHome_desc" text="Wis het opgeslagen thuis-punt voor jouw boerderij"/>
+        <text name="shh_notify_setHome" text="Helper home punt ingesteld"/>
+        <text name="shh_notify_clearHome" text="Helper home punt gewist"/>
+        <text name="shh_notify_vehicleHome" text="%s is klaar met het veld en rijdt naar huis."/>
+        <text name="shh_fallback_vehicleName" text="De helper"/>
+        <text name="shh_error_noSavegame" text="Geen actieve save game."/>
+        <text name="shh_error_noFarm" text="Kies eerst een boerderij (je staat nu als toeschouwer geregistreerd)."/>
+        <text name="shh_error_noPosition" text="Kon de huidige positie niet bepalen."/>
+        <text name="shh_console_setHome_result" text="Thuis-punt opgeslagen voor boerderij %d op (%.1f, %.1f). Helpers rijden hier vanaf nu naar toe als het veld klaar is."/>
+        <text name="shh_console_clearHome_result" text="Thuis-punt gewist voor boerderij %d."/>
+    </texts>
+</l10n>

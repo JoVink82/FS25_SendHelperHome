@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+    <texts>
+        <text name="input_SHH_SET_HOME" text="Helfer nach Hause schicken: Zielpunkt hier festlegen"/>
+        <text name="input_SHH_CLEAR_HOME" text="Helfer nach Hause schicken: Zielpunkt löschen"/>
+
+        <text name="shh_console_setHome_desc" text="Legt den 'Zielpunkt' für deinen Betrieb an der aktuellen Position fest (Fahrzeug oder Spieler)"/>
+        <text name="shh_console_clearHome_desc" text="Löscht den gespeicherten Zielpunkt für deinen Betrieb"/>
+        <text name="shh_notify_setHome" text="Helfer-Zielpunkt festgelegt"/>
+        <text name="shh_notify_clearHome" text="Helfer-Zielpunkt gelöscht"/>
+        <text name="shh_notify_vehicleHome" text="%s hat das Feld fertig bearbeitet und fährt nach Hause."/>
+        <text name="shh_fallback_vehicleName" text="Der Helfer"/>
+        <text name="shh_error_noSavegame" text="Kein aktiver Spielstand."/>
+        <text name="shh_error_noFarm" text="Wähle zuerst einen Betrieb (du bist aktuell als Zuschauer registriert)."/>
+        <text name="shh_error_noPosition" text="Die aktuelle Position konnte nicht ermittelt werden."/>
+        <text name="shh_console_setHome_result" text="Zielpunkt für Betrieb %d bei (%.1f, %.1f) gespeichert. Helfer fahren ab jetzt hierher, sobald ein Feld fertig ist."/>
+        <text name="shh_console_clearHome_result" text="Zielpunkt für Betrieb %d gelöscht."/>
+    </texts>
+</l10n>

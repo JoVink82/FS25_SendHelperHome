@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<l10n>
+    <texts>
+        <text name="input_SHH_SET_HOME" text="Send Helper Home: set home point here"/>
+        <text name="input_SHH_CLEAR_HOME" text="Send Helper Home: clear home point"/>
+
+        <text name="shh_console_setHome_desc" text="Set the 'home' point for your farm at the current position (vehicle or player)"/>
+        <text name="shh_console_clearHome_desc" text="Clear the saved home point for your farm"/>
+        <text name="shh_notify_setHome" text="Helper home point set"/>
+        <text name="shh_notify_clearHome" text="Helper home point cleared"/>
+        <text name="shh_notify_vehicleHome" text="%s has finished the field and is driving home."/>
+        <text name="shh_fallback_vehicleName" text="The helper"/>
+        <text name="shh_error_noSavegame" text="No active save game."/>
+        <text name="shh_error_noFarm" text="Choose a farm first (you are currently registered as a spectator)."/>
+        <text name="shh_error_noPosition" text="Could not determine the current position."/>
+        <text name="shh_console_setHome_result" text="Home point saved for farm %d at (%.1f, %.1f). Helpers will now drive here once a field is finished."/>
+        <text name="shh_console_clearHome_result" text="Home point cleared for farm %d."/>
+    </texts>
+</l10n>

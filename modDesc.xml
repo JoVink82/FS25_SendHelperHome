@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="106">
+    <author>Dennis</author>
+    <version>0.8.1.0</version>
+    <title>
+        <en>Send Helper Home</en>
+        <nl>Stuur Helper Naar Huis</nl>
+        <de>Helfer nach Hause schicken</de>
+    </title>
+    <description>
+        <en>
+Automatically sends the AI helper (hired worker) home to a spot you choose, as soon as it has fully finished the field work.
+
+How to use:
+1. Drive (or walk) to the spot on your farm where helpers should park, then press Ctrl+L.
+2. From now on, whenever a hired helper finishes a field completely, it will automatically drive itself to that spot.
+3. Press Alt+L to remove the saved spot for your farm.
+(Both keys are rebindable in Options - Controls, and the same actions are also available as console commands shhSetHome / shhClearHome.)
+
+Note: the helper only drives home when the field work is fully completed (not when it stops early due to an empty tank, no fuel, or because you stopped it yourself).
+        </en>
+        <nl>
+Stuurt de AI-helper (ingehuurde arbeider) automatisch naar een zelf gekozen plek op je erf, zodra hij het veldwerk volledig heeft afgerond.
+
+Gebruik:
+1. Rijd (of loop) naar de plek op je erf waar helpers moeten parkeren, en druk dan op Ctrl+L.
+2. Vanaf nu rijdt een ingehuurde helper automatisch naar die plek zodra hij een veld volledig heeft afgewerkt.
+3. Druk op Alt+L om de opgeslagen plek voor jouw boerderij te wissen.
+(Beide toetsen zijn te wijzigen via Opties - Besturing, en dezelfde acties zijn ook beschikbaar als consolecommando's shhSetHome / shhClearHome.)
+
+Let op: de helper rijdt alleen naar huis als het veldwerk echt helemaal klaar is (niet als hij eerder stopt door een lege tank, brandstof, of omdat je hem zelf stopzet).
+        </nl>
+        <de>
+Schickt den KI-Helfer automatisch an einen von dir gewählten Platz auf deinem Hof, sobald die Feldarbeit vollständig abgeschlossen ist.
+
+Verwendung:
+1. Fahre (oder gehe) zu der Stelle auf deinem Hof, an der Helfer parken sollen, und drücke dann Strg+L.
+2. Ab jetzt fährt ein angeheuerter Helfer automatisch zu dieser Stelle, sobald er ein Feld vollständig abgeschlossen hat.
+3. Drücke Alt+L, um den gespeicherten Platz für deinen Betrieb wieder zu löschen.
+(Beide Tasten lassen sich unter Optionen - Steuerung ändern; dieselben Aktionen gibt es auch als Konsolenbefehle shhSetHome / shhClearHome.)
+        </de>
+    </description>
+    <multiplayer supported="true" />
+    <extraSourceFiles>
+        <sourceFile filename="scripts/SendHelperHome.lua" />
+    </extraSourceFiles>
+
+    <actions>
+        <action name="SHH_SET_HOME" axisType="HALF" ignoreComboMask="false" />
+        <action name="SHH_CLEAR_HOME" axisType="HALF" ignoreComboMask="false" />
+    </actions>
+    <inputBinding>
+        <actionBinding action="SHH_SET_HOME">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_l" index="1" />
+        </actionBinding>
+        <actionBinding action="SHH_CLEAR_HOME">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lalt KEY_l" index="1" />
+        </actionBinding>
+    </inputBinding>
+
+    <!-- Vertalingen staan niet meer inline, maar in losse bestanden: zie
+         translations/l10n_en.xml, translations/l10n_nl.xml, translations/l10n_de.xml.
+         Het spel laadt automatisch translations/l10n_<taalcode>.xml, met l10n_en.xml
+         als fallback voor talen die niet apart vertaald zijn. -->
+    <l10n filenamePrefix="translations/l10n"/>
+</modDesc>
